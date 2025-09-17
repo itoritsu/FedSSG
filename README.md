@@ -50,7 +50,7 @@ Modify these hyperparameters in the example script or pass them via an argument 
 
 ### Citation
 
-If you find this implementation useful, please cite the MAGIA paper:
+If you find this implementation useful, please cite the FedSSG paper:
 
 ```
 FEDSSG: EXPECTATION-GATED AND HISTORY-AWARE DRIFT ALIGNMENT FOR FEDERATED LEARNING
