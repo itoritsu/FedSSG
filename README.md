@@ -1,6 +1,6 @@
 # FEDSSG: EXPECTATION-GATED AND HISTORY-AWARE DRIFT ALIGNMENT FOR FEDERATED LEARNING
 
-This repository provides a minimal environment for experimenting with the FedSSG optimizer alongside other federated learning baselines. The example scripts illustrate how to configure data partitioning, participation, and optimization hyperparameters for common benchmarks such as CIFAR-10.
+This repository provides a minimal environment for experimenting with the [FedSSG](https://arxiv.org/pdf/2509.13895) optimizer alongside other federated learning baselines. The example scripts illustrate how to configure data partitioning, participation, and optimization hyperparameters for common benchmarks such as CIFAR-10.
 
 All helper utilities now live inside the [`utils/`](utils) package so they can be imported with standard module paths such as `utils.general` or `utils.methods`. The package exposes the same functionality that was previously found in the flat `utils_*.py` files, but groups related helpers (datasets, models, training loops, etc.) into dedicated modules for easier discovery.
 
@@ -53,7 +53,15 @@ Modify these hyperparameters in the example script or pass them via an argument 
 If you find this implementation useful, please cite the FedSSG paper:
 
 ```
-FEDSSG: EXPECTATION-GATED AND HISTORY-AWARE DRIFT ALIGNMENT FOR FEDERATED LEARNING
+@misc{zhou2025fedssgexpectationgatedhistoryawaredrift,
+      title={FedSSG: Expectation-Gated and History-Aware Drift Alignment for Federated Learning}, 
+      author={Zhanting Zhou and Jinshan Lai and Fengchun Zhang and Zeqin Wu and Fengli Zhang},
+      year={2025},
+      eprint={2509.13895},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2509.13895}, 
+}
 ```
 
 ---
